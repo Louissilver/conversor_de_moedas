@@ -1,7 +1,5 @@
-// GET
-/*
 const retornarCotacao = () => {
-    return fetch(`https://economia.awesomeapi.com.br/json/all/USD-BRL`)
+    return fetch(`https://economia.awesomeapi.com.br/json/all/${moeda}`)
     .then(resposta => {
         return resposta.json();
     })
@@ -9,4 +7,3 @@ const retornarCotacao = () => {
         return json;
     });
 }
-*/
