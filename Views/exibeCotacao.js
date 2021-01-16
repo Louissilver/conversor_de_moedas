@@ -18,7 +18,7 @@ const exibirMoeda = (valorCompra, moedaOrigem, moedaDestino) => {
         <input id="inputMoedaDestino" onChange="converteMoedaParaBRL()" type="number" class="form-control" aria-describedby="moedaDestino" value="${valorInicial.toFixed(4)}">
     </div>
 
-    <div class="input-group-lg p-3">vale</div>
+    <div class="p-3">vale</div>
     
     <div class="input-group-lg p-3">
         <span class="form-label h1" id="moedaOrigem">${moedaDestino}</span>
